@@ -4,9 +4,11 @@ public class ExplodeArray {
 	public static void main(String[] args) {
 		
 		AddArray<String> s1=new AddArray<String>(20);
-		s1.add("1");
-		s1.add("2");
-		s1.add("3");
+
+		for(int i=0;i<500;i++) {
+			Integer i1=new Integer(i);
+			String s=i1.toString();
+			s1.add(s);}
 		System.out.println(s1);
 	}
 
