@@ -1,4 +1,4 @@
-//√∞≈›≈≈–Ú
+//Sort
 public class BubbleSort {
 
 	void bubbleSort(int a[]){
@@ -22,7 +22,7 @@ public class BubbleSort {
 	}
 }
 
-//∂˛∑÷≤È’“
+//Search
 	
 	int binarySearch(int a[],int value) {
 		int low=0;
